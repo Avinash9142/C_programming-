@@ -3,8 +3,11 @@ int main() {
     int roll;
     char name[50];
     float m1,m2,m3,total,per;
+    printf ("Enter roll number: ");
     scanf("%d",&roll);
+    printf("Enter name: ");
     scanf("%s",name);
+    printf("Enter marks of three subjects\n");
     scanf("%f%f%f",&m1,&m2,&m3);
     total=m1+m2+m3;
     per=(total/300)*100;
@@ -26,3 +29,5 @@ int main() {
     }
     return 0;
 }
+
+
