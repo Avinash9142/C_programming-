@@ -4,10 +4,12 @@ int main() {
     printf("Enter sides of triangle\n");
     scanf("%d%d%d",&a,&b,&c);
     sum=a+b+c;
-    if(sum==180)
+    if(sum==180){
         printf("The triangle is valid.");
-    else
+    }
+    else{
         printf("The triangle is not valid.");
+    }
     return 0;
 }
 
