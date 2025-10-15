@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
     float t;
+    printf("Enter temperature: ");
     scanf("%f",&t);
     if(t<0)
         printf("Freezing weather");
